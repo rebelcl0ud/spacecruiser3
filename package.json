@@ -1,0 +1,18 @@
+{
+  "name": "spacecruiser3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "three": "^0.94.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  },
+  "scripts": {
+    "server": "browser-sync start --directory --server --files '*.js, *.html, *.css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
